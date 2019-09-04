@@ -85,4 +85,3 @@ some examples of more complicated hashes!
 
 [rand]: https://ruby-doc.org/core-2.5.0/Random.html
 
-     expect(read_from_hash({'name' => 'Tzvi'}, 'name')).to eq('Tzvi')
