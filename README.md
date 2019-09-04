@@ -84,3 +84,10 @@ some examples of more complicated hashes!
 - [Ruby Documentation on Hashes](https://ruby-doc.org/core-2.5.1/Hash.html)
 
 [rand]: https://ruby-doc.org/core-2.5.0/Random.html
+
+describe "reading data from a hash" do
+  describe "read_from_hash" do
+    it "returns the value corresponding to the provided key" do
+      expect(read_from_hash({name: 'Steve'}, :name)).to eq('Steve')
+      expect(read_from_hash({'name' => 'Tzvi'}, 'name')).to eq('Tzvi')
+    end
