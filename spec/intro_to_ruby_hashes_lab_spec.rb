@@ -38,7 +38,6 @@ describe "working with hashes" do
         expect(my_hash_creator(:name, 'Grace Hopper')).to be_a(Hash)
         expect(my_hash_creator(:name, 'Grace Hopper')).to eq({name: 'Grace Hopper'})
 
-        expect(my_hash_creator(1, 2)).to eq({1 => 2})
       end
     end
   end
