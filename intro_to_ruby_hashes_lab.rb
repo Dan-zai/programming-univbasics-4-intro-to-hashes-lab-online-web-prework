@@ -29,7 +29,7 @@ end
 
 def read_from_hash(hash, key)
   hash = "Steve"
-  key = nil
+  key =
 
   end
 
