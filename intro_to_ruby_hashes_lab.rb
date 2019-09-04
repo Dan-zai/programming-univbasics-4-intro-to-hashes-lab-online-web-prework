@@ -29,7 +29,7 @@ end
 
 def read_from_hash(hash, key)
   read_from_hash = { :name => "Steve" }
-  read_from_hash[]
+  read_from_hash[:name]
 end
 
 def update_counting_hash(hash, key)
