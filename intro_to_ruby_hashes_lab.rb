@@ -30,8 +30,6 @@ end
 def read_from_hash(hash, key)
   key = :name
   read_from_hash = { :name => "Steve"}
-  read_from_hash[:name]
-  read_from_hash[:age]
 end
 
 def update_counting_hash(hash, key)
