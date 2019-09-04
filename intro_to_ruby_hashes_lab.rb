@@ -28,9 +28,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  read_from_hash = {"name" => "Tsvi", :name => "Steve"}
-  hash = {name: "Steve"}
-  read_from_hash[:food]
+  monopoly = {
+    :name => {:name => "Steve", :names => "Tsvi"}
 end
 
 def update_counting_hash(hash, key)
