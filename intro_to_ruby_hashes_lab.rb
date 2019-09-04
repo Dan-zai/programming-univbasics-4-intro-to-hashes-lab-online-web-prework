@@ -31,6 +31,7 @@ def read_from_hash(hash, key)
   hash = {:name => "Steve"}
   key = "Tzvi"
   hash[:fruit]
+  return :name
 end
 
 def update_counting_hash(hash, key)
